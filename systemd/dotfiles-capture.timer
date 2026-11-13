@@ -1,0 +1,11 @@
+[Unit]
+Description=Periodically capture Omarchy dotfile changes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Persistent=true
+Unit=dotfiles-capture.service
+
+[Install]
+WantedBy=timers.target
