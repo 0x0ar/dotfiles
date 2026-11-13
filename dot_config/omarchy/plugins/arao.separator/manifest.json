@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "arao.separator",
+  "name": "Animated separator",
+  "version": "1.0.0",
+  "author": "arao",
+  "description": "A thin divider with a light that slides along it",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Animated separator",
+    "description": "A thin divider with a light that slides along it",
+    "category": "Layout",
+    "allowMultiple": true
+  }
+}

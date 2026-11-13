@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "arao.visualizer",
+  "name": "Visualizer",
+  "version": "1.0.0",
+  "author": "arao",
+  "description": "Animated audio bars that move while media plays",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Visualizer",
+    "description": "Animated audio bars that move while media plays",
+    "category": "Media",
+    "allowMultiple": false
+  }
+}

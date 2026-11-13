@@ -25,3 +25,7 @@
 -- Logitech MX Keys examples:
 -- o.bind("SUPER + H", nil, "voxtype record toggle")
 -- o.bind("SUPER + PERIOD", nil, { panel = "omarchy.emojis" })
+
+-- Logitech MX Master 3S: SUPER + scroll horizontal cambia el foco entre ventanas del workspace.
+o.bind("SUPER + mouse_right", "Focus on next window (horizontal scroll)", hl.dsp.window.cycle_next())
+o.bind("SUPER + mouse_left", "Focus on previous window (horizontal scroll)", hl.dsp.window.cycle_next({ next = false }))

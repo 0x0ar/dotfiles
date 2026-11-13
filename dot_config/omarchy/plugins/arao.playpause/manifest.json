@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "arao.playpause",
+  "name": "Play button",
+  "version": "1.0.0",
+  "author": "arao",
+  "description": "Round play/pause button for the active media player",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Play button",
+    "description": "Round play/pause button for the active media player",
+    "category": "Media",
+    "allowMultiple": false
+  }
+}

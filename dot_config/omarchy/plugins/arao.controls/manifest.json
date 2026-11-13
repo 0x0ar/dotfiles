@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "arao.controls",
+  "name": "Controls",
+  "version": "1.0.0",
+  "author": "arao",
+  "description": "Sliders icon that opens the Omarchy menu",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Controls",
+    "description": "Sliders icon that opens the Omarchy menu",
+    "category": "Media",
+    "allowMultiple": false
+  }
+}

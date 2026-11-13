@@ -63,3 +63,16 @@ hl.config({
 -- Los juegos con tag "immediate" usan presentación con tearing.
 -- Steam games (gamescope/proton) y apps SDL comunes.
 o.window("^steam_app_.*$", { immediate = true })
+
+-- Cursor: no saltar a la ventana al cambiar el foco (SUPER + scroll horizontal)
+-- y ocultarlo tras 1 s de inactividad.
+hl.config({
+  cursor = { no_warps = true, inactive_timeout = 1 },
+})
+
+-- Animación de transición entre workspaces (Omarchy la desactiva por defecto).
+hl.animation({ leaf = "workspaces", enabled = true, speed = 4, bezier = "easeOutQuint", style = "slide" })
+
+-- Cursor theme: Remus White (~/.local/share/icons/Remus-White).
+hl.env("XCURSOR_THEME", "Remus-White")
+hl.env("HYPRCURSOR_THEME", "Remus-White")
